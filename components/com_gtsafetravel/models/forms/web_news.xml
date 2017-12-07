@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form addfieldpath="/administrator/components/com_gtsafetravel/models/fields">
+	<fields>
+		<fieldset name="item">
+			<field name="id"
+				type="althidden"
+				readonly="true"
+			/>
+			<field name="old_id"
+				type="althidden"
+				readonly="true"
+			/>
+			<field name="code"
+				type="textarea"
+				required="false"
+				rows="3"
+				class="input-xxlarge"
+				label="COM_GTSAFETRAVEL_FIELD_CODE"
+				description="COM_GTSAFETRAVEL_FIELD_CODE_DESC"
+				width="80px"
+				align="center"
+			/>
+			<field name="country_id"
+				type="textarea"
+				required="false"
+				query="SELECT id, name FROM #__web_news WHERE id IN (%s) ORDER BY name"
+				task="selectize.getItem"
+				requests="{table: 'web_news'}"
+				wheres="published = 1"
+				class="input-xxlarge"
+				label="COM_GTSAFETRAVEL_FIELD_COUNTRY_ID"
+				description="COM_GTSAFETRAVEL_FIELD_COUNTRY_ID_DESC"
+			/>
+			<field name="title"
+				type="textarea"
+				required="false"
+				rows="3"
+				class="input-xxlarge"
+				label="COM_GTSAFETRAVEL_FIELD_TITLE"
+				description="COM_GTSAFETRAVEL_FIELD_TITLE_DESC"
+			/>
+			<field name="date"
+				type="altcalendar"
+				id="date"
+				class="input-small"
+				required="false"
+				label="COM_GTSAFETRAVEL_FIELD_DATE"
+				description="COM_GTSAFETRAVEL_FIELD_DATE_DESC"
+				width="100px"
+				align="center"
+			/>
+			<field name="content"
+				type="editor"
+				width="60%"
+				height="200px"
+				filter="safehtml"
+				required="false"
+				label="COM_GTSAFETRAVEL_FIELD_CONTENT"
+				description="COM_GTSAFETRAVEL_FIELD_CONTENT_DESC"
+			/>
+			<field name="total_read"
+				type="text"
+				filter="numeric"
+				required="false"
+				label="COM_GTSAFETRAVEL_FIELD_TOTAL_READ"
+				description="COM_GTSAFETRAVEL_FIELD_TOTAL_READ_DESC"
+				width="70px"
+				align="center"
+			/>
+			<field name="total_rate"
+				type="text"
+				filter="numeric"
+				required="false"
+				label="COM_GTSAFETRAVEL_FIELD_TOTAL_RATE"
+				description="COM_GTSAFETRAVEL_FIELD_TOTAL_RATE_DESC"
+			/>
+			<field name="image_path"
+				type="textarea"
+				required="false"
+				rows="3"
+				class="input-xxlarge"
+				label="COM_GTSAFETRAVEL_FIELD_IMAGE_PATH"
+				description="COM_GTSAFETRAVEL_FIELD_IMAGE_PATH_DESC"
+			/>
+			<field name="tag"
+				type="textarea"
+				required="false"
+				rows="3"
+				class="input-xxlarge"
+				label="COM_GTSAFETRAVEL_FIELD_TAG"
+				description="COM_GTSAFETRAVEL_FIELD_TAG_DESC"
+			/>
+		</fieldset>
+	</fields>
+</form>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form addfieldpath="/administrator/components/com_gtsafetravel/models/fields">
+	<fields>
+		<fieldset name="item">
+			<field name="id"
+				type="althidden"
+				readonly="true"
+			/>
+			<field name="old_id"
+				type="althidden"
+				readonly="true"
+			/>
+			<field name="name"
+				type="text"
+				readonly="true"
+				filter="string"
+				required="false"
+				class="input-medium"
+				label="COM_GTSAFETRAVEL_FIELD_NAME"
+			/>
+			<field name="indicator_id"
+				type="text"
+				readonly="true"
+				filter="string"
+				required="false"
+				class="input-medium"
+				label="COM_GTSAFETRAVEL_FIELD_INDICATOR_ID"
+				width="100px"
+			/>
+			<field name="code"
+				type="text"
+				readonly="true"
+				filter="string"
+				required="false"
+				class="input-medium"
+				label="COM_GTSAFETRAVEL_FIELD_CODE"
+				align="center"
+				width="50px"
+			/>
+			<field name="iso_code"
+				type="text"
+				readonly="true"
+				filter="string"
+				required="false"
+				class="input-medium"
+				label="COM_GTSAFETRAVEL_FIELD_ISO_CODE"
+				align="center"
+				width="50px"
+			/>
+			<field name="official_name"
+				type="text"
+				readonly="true"
+				filter="string"
+				required="false"
+				class="input-medium"
+				label="COM_GTSAFETRAVEL_FIELD_OFFICIAL_NAME"
+			/>
+			<field name="name_en"
+				type="text"
+				readonly="true"
+				filter="string"
+				required="false"
+				class="input-medium"
+				label="COM_GTSAFETRAVEL_FIELD_NAME_EN"
+			/>
+			<field name="official_name_en"
+				type="text"
+				readonly="true"
+				filter="string"
+				required="false"
+				class="input-medium"
+				label="COM_GTSAFETRAVEL_FIELD_OFFICIAL_NAME_EN"
+			/>
+			<field name="latitude"
+				type="text"
+				readonly="true"
+				filter="string"
+				required="false"
+				class="input-medium"
+				label="COM_GTSAFETRAVEL_FIELD_LATITUDE"
+			/>
+			<field name="longitude"
+				type="text"
+				readonly="true"
+				filter="string"
+				required="false"
+				class="input-medium"
+				label="COM_GTSAFETRAVEL_FIELD_LONGITUDE"
+			/>
+		</fieldset>
+	</fields>
+</form>

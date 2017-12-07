@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_GTSAFETRAVEL_REF_ITEMS_VIEW_DEFAULT_TITLE">
+		<message>
+			<![CDATA[COM_GTSAFETRAVEL_REF_ITEMS_VIEW_DEFAULT_TITLE]]>
+		</message>
+	</layout>
+
+	<fields name="params">
+		<fieldset name="params"
+			label="COM_GTSAFETRAVEL_FIELDSET_PARAMS"
+		>
+			<field name="menu_name"
+				type="radio"
+				label="COM_GTSAFETRAVEL_PAGE"
+				class="bootstrap-radio"
+			>
+				<option value="mob_comment">mob_comment</option>
+				<option value="mob_emergency">mob_emergency</option>
+				<option value="mob_travel">mob_travel</option>
+				<option value="ref_classification">ref_classification</option>
+				<option value="ref_country">ref_country</option>
+				<option value="ref_embassy">ref_embassy</option>
+				<option value="ref_feature">ref_feature</option>
+				<option value="ref_file_category">ref_file_category</option>
+				<option value="ref_indicator">ref_indicator</option>
+				<option value="ref_info">ref_info</option>
+				<option value="ref_media">ref_media</option>
+				<option value="ref_service_type">ref_service_type</option>
+				<option value="sys_client">sys_client</option>
+				<option value="sys_user">sys_user</option>
+				<option value="web_announcement">web_announcement</option>
+				<option value="web_assessment">web_assessment</option>
+				<option value="web_checklist">web_checklist</option>
+				<option value="web_insurance">web_insurance</option>
+				<option value="web_news">web_news</option>
+				<option value="web_notification">web_notification</option>
+				<option value="web_polling">web_polling</option>
+				<option value="web_service">web_service</option>
+				<option value="web_slider">web_slider</option>
+				<option value="web_tip">web_tip</option>
+			</field>
+		</fieldset>
+	</fields>
+</metadata>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_GTSAFETRAVEL_USER_ITEMS_VIEW_DEFAULT_TITLE">
+		<message>
+			<![CDATA[COM_GTSAFETRAVEL_USER_ITEMS_VIEW_DEFAULT_TITLE]]>
+		</message>
+	</layout>
+
+	<fields name="params">
+		<fieldset name="params"
+			label="COM_GTSAFETRAVEL_FIELDSET_PARAMS"
+		>
+			<field name="menu_name"
+				type="radio"
+				label="COM_GTSAFETRAVEL_FIELD_menu_name"
+				class="bootstrap-radio"
+			>
+				<option value="surveyor">Surveyor</option>
+				<option value="validator">Validator</option>
+			</field>
+		</fieldset>
+	</fields>
+</metadata>

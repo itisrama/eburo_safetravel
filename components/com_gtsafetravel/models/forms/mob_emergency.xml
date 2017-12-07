@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form addfieldpath="/administrator/components/com_gtsafetravel/models/fields">
+	<fields>
+		<fieldset name="item">
+			<field name="id"
+				type="althidden"
+				readonly="true"
+			/>
+			<field name="old_id"
+				type="althidden"
+				readonly="true"
+			/>
+			<field name="client_id"
+				type="textarea"
+				required="false"
+				query="SELECT id, name FROM #__mob_emergency WHERE id IN (%s) ORDER BY name"
+				task="selectize.getItem"
+				requests="{table: 'mob_emergency'}"
+				wheres="published = 1"
+				class="input-xxlarge"
+				label="COM_GTSAFETRAVEL_FIELD_CLIENT_ID"
+				description="COM_GTSAFETRAVEL_FIELD_CLIENT_ID_DESC"
+			/>
+			<field name="type"
+				type="text"
+				filter="numeric"
+				required="false"
+				label="COM_GTSAFETRAVEL_FIELD_TYPE"
+				description="COM_GTSAFETRAVEL_FIELD_TYPE_DESC"
+			/>
+			<field name="name"
+				type="text"
+				readonly="true"
+				filter="string"
+				required="false"
+				class="input-medium"
+				label="COM_GTSAFETRAVEL_FIELD_NAME"
+				description="COM_GTSAFETRAVEL_FIELD_NAME_DESC"
+			/>
+			<field name="description"
+				type="textarea"
+				required="false"
+				rows="3"
+				class="input-xxlarge"
+				label="COM_GTSAFETRAVEL_FIELD_DESCRIPTION"
+				description="COM_GTSAFETRAVEL_FIELD_DESCRIPTION_DESC"
+			/>
+			<field name="media_path"
+				type="textarea"
+				required="false"
+				rows="3"
+				class="input-xxlarge"
+				label="COM_GTSAFETRAVEL_FIELD_MEDIA_PATH"
+				description="COM_GTSAFETRAVEL_FIELD_MEDIA_PATH_DESC"
+			/>
+			<field name="location"
+				type="textarea"
+				required="false"
+				rows="3"
+				class="input-xxlarge"
+				label="COM_GTSAFETRAVEL_FIELD_LOCATION"
+				description="COM_GTSAFETRAVEL_FIELD_LOCATION_DESC"
+			/>
+			<field name="latitude"
+				type="text"
+				readonly="true"
+				filter="string"
+				required="false"
+				class="input-medium"
+				label="COM_GTSAFETRAVEL_FIELD_LATITUDE"
+				description="COM_GTSAFETRAVEL_FIELD_LATITUDE_DESC"
+			/>
+			<field name="longitude"
+				type="text"
+				readonly="true"
+				filter="string"
+				required="false"
+				class="input-medium"
+				label="COM_GTSAFETRAVEL_FIELD_LONGITUDE"
+				description="COM_GTSAFETRAVEL_FIELD_LONGITUDE_DESC"
+			/>
+		</fieldset>
+	</fields>
+</form>

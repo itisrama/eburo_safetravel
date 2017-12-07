@@ -1,0 +1,314 @@
+#com_gtsafetravel #adminlist th,
+#com_gtsafetravel #adminlist td {
+	vertical-align: middle !important;
+}
+#com_gtsafetravel #adminForm > div > .btn {
+	margin-bottom: 5px;
+	vertical-align: top;
+}
+#com_gtsafetravel .table th {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#com_gtsafetravel .table th label {
+	font-weight: bold;
+	text-align: center;
+}
+
+#com_gtsafetravel .table th a .fa {
+	margin: 0 5px;
+}
+
+#com_gtsafetravel .table tr input[type="checkbox"] {
+	margin: 0;
+	vertical-align: middle;
+}
+#com_gtsafetravel .table hr {
+	margin: 2px 0;
+}
+#com_gtsafetravel .table td {
+	/*vertical-align: middle;*/
+}
+
+#com_gtsafetravel .table td.actions {
+	text-align: center;
+}
+
+#com_gtsafetravel .table td.longtext {
+	white-space: normal !important;
+	min-width: 150px;
+}
+
+#com_gtsafetravel .jkcolumn {
+	overflow: visible;
+}
+
+#com_gtsafetravel .jkcolumn > div {
+	display: inline-block;
+	margin-right: 15px;
+	vertical-align: top;
+	overflow: visible;
+}
+
+#com_gtsafetravel .table-sorted tr {
+	cursor: pointer;
+}
+#com_gtsafetravel .table-sorted tr.placeholder {
+	background: none repeat scroll 0 0 red;
+	border: medium none;
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#com_gtsafetravel .table-sorted tr.placeholder:before {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-color: transparent -moz-use-text-color transparent red;
+	border-image: none;
+	border-style: solid none solid solid;
+	border-width: 10px medium 10px 10px;
+	content: "";
+	height: 0;
+	left: -10px;
+	margin-top: -10px;
+	position: absolute;
+	width: 0;
+}
+
+#com_gtsafetravel .nav p.lead {
+	font-size: 1.1em;
+	margin-bottom: 0;
+}
+#com_gtsafetravel tr.head td {
+	background-color: gray;
+	color: white;
+}
+
+#com_gtsafetravel .date,
+#com_gtsafetravel .date small {
+	white-space: nowrap;
+}
+
+#com_gtsafetravel .sample {
+
+}
+
+#com_gtsafetravel td.sample {
+	border-left: none;
+	border-right: none;
+	width: 15%;
+	padding-left: 0;
+}
+
+#com_gtsafetravel td.type {
+	border-right: none;
+	width: 50px;
+}
+
+#com_gtsafetravel td.count {
+	padding-left: 0;
+	border-left: none;
+	width: 50px;
+}
+
+#com_gtsafetravel td.count span {
+	background-color: #999;
+	border-radius: 13px;
+	color: #fff;
+	display: inline-block;
+	font-size: 0.8em;
+	height: 25px;
+	line-height: 25px;
+	min-width: 25px;
+	text-align: center;
+	padding: 0 5px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#com_gtsafetravel .currency {
+	white-space: nowrap;
+}
+
+#com_gtsafetravel .table .btn {
+	/*margin-top: 5px;
+	margin-bottom: 5px;*/
+}
+#com_gtsafetravel .tablegrid {
+	float: left;
+	width: 100%;
+	overflow-x: auto;
+}
+
+#com_gtsafetravel .form-inline {
+}
+
+#com_gtsafetravel .form-inline .form-group {
+	margin-bottom: 0;
+}
+#com_gtsafetravel .form-inline label, 
+#com_gtsafetravel .form-inline input, 
+#com_gtsafetravel .form-inline .btn, 
+#com_gtsafetravel .form-inline button, 
+#com_gtsafetravel .form-inline select, 
+#com_gtsafetravel .form-inline textarea {
+	margin: 0 !important;
+	vertical-align: middle;
+}
+
+#com_gtsafetravel h1 select {
+	display: inline-block;
+	font-size: .6em;
+	margin: 0;
+}
+
+#com_gtsafetravel h1 {
+	display: inline-block;
+	line-height: 1.4em;
+}
+
+#com_gtsafetravel .bubble {
+	position:relative;
+	padding:15px 15px 40px;
+	margin:0;
+	border:5px solid #ccc;
+	color:#333;
+	background:#fff;
+	/* css3 */
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius: 10px;
+	width: 70%;
+	min-width: 300px;
+}
+#com_gtsafetravel .bubble hr {
+	display: none;
+}
+#com_gtsafetravel .bubble small {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 5px 15px;
+	background-color: #ccc;
+	color: #fff;
+	border-radius: 0 0 4px 4px;
+	font-weight: normal !important;
+	white-space: nowrap;
+	overflow-x: auto;
+}
+#com_gtsafetravel .bubble > div {
+	display: table;
+}
+#com_gtsafetravel .bubble > div > div {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#com_gtsafetravel .bubble .msg {
+	width: 100%;
+}
+
+#com_gtsafetravel .bubble .icon {
+	padding-right: 10px;
+}
+
+#com_gtsafetravel .bubble-left {
+	margin-left:25px;
+}
+
+#com_gtsafetravel .bubble-right {
+	margin-right:25px;
+}
+
+#com_gtsafetravel .bubble:before {
+  content:"";
+  position:absolute;
+  bottom:-20px; /* value = - border-top-width - border-bottom-width */
+  left:40px; /* controls horizontal position */
+  border-width:20px 20px 0;
+  border-style:solid;
+  border-color:#ccc transparent;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+
+/* creates the smaller  triangle */
+#com_gtsafetravel .bubble:after {
+  content:"";
+  position:absolute;
+  bottom:-13px; /* value = - border-top-width - border-bottom-width */
+  left:47px; /* value = (:before left) + (:before border-left) - (:after border-left) */
+  border-width:13px 13px 0;
+  border-style:solid;
+  border-color:#fff transparent;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+
+#com_gtsafetravel .bubble-left:before {
+  top:10px; /* controls vertical position */
+  bottom:auto;
+  left:-23px; /* value = - border-left-width - border-right-width */
+  border-width:15px 23px 15px 0;
+  border-color:transparent #ccc;
+}
+
+#com_gtsafetravel .bubble-left:after {
+  top:16px; /* value = (:before top) + (:before border-top) - (:after border-top) */
+  bottom:auto;
+  left:-15px; /* value = - border-left-width - border-right-width */
+  border-width:9px 15px 9px 0;
+  border-color:transparent #fff;
+}
+
+#com_gtsafetravel .bubble-right:before {
+  top:10px; /* controls vertical position */
+  bottom:auto;
+  left:auto;
+  right:-23px; /* value = - border-left-width - border-right-width */
+  border-width:15px 0 15px 23px;
+  border-color:transparent #ccc;
+}
+
+/* creates the smaller  triangle */
+#com_gtsafetravel .bubble-right:after {
+  top:16px; /* value = (:before top) + (:before border-top) - (:after border-top) */
+  bottom:auto;
+  left:auto;
+  right:-15px; /* value = - border-left-width - border-right-width */
+  border-width:9px 0 9px 15px;
+  border-color:transparent #fff;
+}
+
+#com_gtsafetravel .message {
+	white-space: normal;
+	min-width: 300px;
+}
+#com_gtsafetravel .message hr {
+	margin: 5px 0;
+}
+
+#com_gtsafetravel #table-filter {
+	margin: 10px 0 0;
+}
+
+#com_gtsafetravel .loading-msg {
+	font-size: 2em;
+	font-weight: 100;
+	text-align: center;
+	line-height: 200px;
+}
+
+@media (max-width: 767px) {
+	#com_gtsafetravel #table-filter {
+		display: none;
+	}
+}

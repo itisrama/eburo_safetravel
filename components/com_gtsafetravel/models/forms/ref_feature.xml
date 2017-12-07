@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form addfieldpath="/administrator/components/com_gtsafetravel/models/fields">
+	<fields>
+		<fieldset name="item">
+			<field name="id"
+				type="althidden"
+				readonly="true"
+			/>
+			<field name="old_id"
+				type="althidden"
+				readonly="true"
+			/>
+			<field name="code"
+				type="text"
+				readonly="true"
+				filter="string"
+				required="false"
+				class="input-medium"
+				label="COM_GTSAFETRAVEL_FIELD_CODE"
+				description="COM_GTSAFETRAVEL_FIELD_CODE_DESC"
+			/>
+			<field name="name"
+				type="textarea"
+				required="false"
+				rows="3"
+				class="input-xxlarge"
+				label="COM_GTSAFETRAVEL_FIELD_NAME"
+				description="COM_GTSAFETRAVEL_FIELD_NAME_DESC"
+			/>
+		</fieldset>
+	</fields>
+</form>

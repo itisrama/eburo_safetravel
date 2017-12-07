@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form addfieldpath="/administrator/components/com_gtsafetravel/models/fields">
+	<fields>
+		<fieldset name="item">
+			<field name="id"
+				type="althidden"
+				readonly="true"
+			/>
+			<field name="old_id"
+				type="althidden"
+				readonly="true"
+			/>
+			<field name="start_date"
+				type="altcalendar"
+				id="start_date"
+				class="input-small"
+				required="false"
+				label="COM_GTSAFETRAVEL_FIELD_START_DATE"
+				description="COM_GTSAFETRAVEL_FIELD_START_DATE_DESC"
+			/>
+			<field name="end_date"
+				type="altcalendar"
+				id="end_date"
+				class="input-small"
+				required="false"
+				label="COM_GTSAFETRAVEL_FIELD_END_DATE"
+				description="COM_GTSAFETRAVEL_FIELD_END_DATE_DESC"
+			/>
+			<field name="show_menu_id"
+				type="text"
+				filter="numeric"
+				required="false"
+				label="COM_GTSAFETRAVEL_FIELD_SHOW_MENU_ID"
+				description="COM_GTSAFETRAVEL_FIELD_SHOW_MENU_ID_DESC"
+			/>
+			<field name="show_all"
+				type="text"
+				filter="numeric"
+				required="false"
+				label="COM_GTSAFETRAVEL_FIELD_SHOW_ALL"
+				description="COM_GTSAFETRAVEL_FIELD_SHOW_ALL_DESC"
+			/>
+			<field name="description"
+				type="textarea"
+				required="false"
+				rows="3"
+				class="input-xxlarge"
+				label="COM_GTSAFETRAVEL_FIELD_DESCRIPTION"
+				description="COM_GTSAFETRAVEL_FIELD_DESCRIPTION_DESC"
+			/>
+		</fieldset>
+	</fields>
+</form>

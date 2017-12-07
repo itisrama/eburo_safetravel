@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form addfieldpath="/administrator/components/com_gtsafetravel/models/fields">
+	<fields>
+		<fieldset name="item">
+			<field name="id"
+				type="althidden"
+				readonly="true"
+			/>
+			<field name="old_id"
+				type="althidden"
+				readonly="true"
+			/>
+			<field name="data_type"
+				type="text"
+				filter="numeric"
+				required="false"
+				label="COM_GTSAFETRAVEL_FIELD_DATA_TYPE"
+				description="COM_GTSAFETRAVEL_FIELD_DATA_TYPE_DESC"
+			/>
+			<field name="data_id"
+				type="text"
+				filter="numeric"
+				required="false"
+				label="COM_GTSAFETRAVEL_FIELD_DATA_ID"
+				description="COM_GTSAFETRAVEL_FIELD_DATA_ID_DESC"
+			/>
+			<field name="code"
+				type="text"
+				readonly="true"
+				filter="string"
+				required="false"
+				class="input-medium"
+				label="COM_GTSAFETRAVEL_FIELD_CODE"
+				description="COM_GTSAFETRAVEL_FIELD_CODE_DESC"
+			/>
+			<field name="title"
+				type="textarea"
+				required="false"
+				rows="3"
+				class="input-xxlarge"
+				label="COM_GTSAFETRAVEL_FIELD_TITLE"
+				description="COM_GTSAFETRAVEL_FIELD_TITLE_DESC"
+			/>
+			<field name="image_path"
+				type="textarea"
+				required="false"
+				rows="3"
+				class="input-xxlarge"
+				label="COM_GTSAFETRAVEL_FIELD_IMAGE_PATH"
+				description="COM_GTSAFETRAVEL_FIELD_IMAGE_PATH_DESC"
+			/>
+			<field name="content"
+				type="editor"
+				width="60%"
+				height="200px"
+				filter="safehtml"
+				required="false"
+				label="COM_GTSAFETRAVEL_FIELD_CONTENT"
+				description="COM_GTSAFETRAVEL_FIELD_CONTENT_DESC"
+			/>
+			<field name="start_date"
+				type="altcalendar"
+				id="start_date"
+				class="input-small"
+				required="false"
+				label="COM_GTSAFETRAVEL_FIELD_START_DATE"
+				description="COM_GTSAFETRAVEL_FIELD_START_DATE_DESC"
+			/>
+			<field name="end_date"
+				type="altcalendar"
+				id="end_date"
+				class="input-small"
+				required="false"
+				label="COM_GTSAFETRAVEL_FIELD_END_DATE"
+				description="COM_GTSAFETRAVEL_FIELD_END_DATE_DESC"
+			/>
+		</fieldset>
+	</fields>
+</form>

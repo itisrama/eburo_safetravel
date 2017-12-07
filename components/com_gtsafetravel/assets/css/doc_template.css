@@ -1,0 +1,126 @@
+@page doc_template{
+	size: 21cm 29.7cm;
+	margin: 1.5cm 2cm 1.5cm 2.5cm;
+}
+
+#com_gtsafetravel .doc_template {
+	color: black !important;
+	page: doc_template;
+	line-height: 115%;
+}
+
+#com_gtsafetravel .doc_template,
+#com_gtsafetravel .doc_template h3,
+#com_gtsafetravel .doc_template > table {
+	font-family: 'PT Sans Narrow';
+	font-size: 16px;
+}
+#com_gtsafetravel .doc_template h3 {
+	line-height: 100%;
+	font-size: 20px !important;
+}
+#com_gtsafetravel .doc_template h3 small {
+	font-size: 16px !important;
+}
+
+#com_gtsafetravel .doc_template > table,
+#com_gtsafetravel .doc_template > table > tbody > tr > td > table,
+#com_gtsafetravel .doc_template > table > tr > td > table {
+	width: 100%;
+	background: none;
+	border: 0;
+	border-spacing: 0;
+	border-collapse: collapse;
+	margin: 0;
+}
+#com_gtsafetravel .doc_template .border-box {
+	font-size: 22pt;
+	width:15%; 
+	border:1px solid black; 
+	height: 50px;
+	vertical-align: middle;
+	text-align:center;
+}
+#com_gtsafetravel .doc_template > table > tr > td,
+#com_gtsafetravel .doc_template > table > tbody > tr > td,
+#com_gtsafetravel .doc_template > table > tr > td > table > tr > td,
+#com_gtsafetravel .doc_template > table > tbody > tr > td > table > tbody > tr > td {
+	border: none;
+	vertical-align: top;
+	padding: 0;
+	line-height: 115%;
+}
+#com_gtsafetravel .doc_template .input-mini {
+	width: 60px !important;
+}
+#com_gtsafetravel .doc_template .input-small {
+	width: 100px !important;
+}
+#com_gtsafetravel .doc_template .input-medium {
+	width: 150px !important;
+}
+#com_gtsafetravel .doc_template .input-large {
+	width: 250px !important;
+}
+#com_gtsafetravel .doc_template .input-xlarge {
+	width: 300px !important;
+}
+#com_gtsafetravel .doc_template .input-xxlarge {
+	width: 500px !important;
+}
+#com_gtsafetravel .doc_template select,
+#com_gtsafetravel .doc_template input.text,
+#com_gtsafetravel .doc_template fieldset.bootstrap-radio,
+#com_gtsafetravel .doc_template textarea.textarea,
+#com_gtsafetravel .doc_template div.date-container {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 2px 6px;
+	resize: none;
+	max-width: 100%;
+}
+
+#com_gtsafetravel .doc_template .header {
+	display: inline-block;
+	text-align: center;
+}
+
+#com_gtsafetravel .doc_template ol,
+#com_gtsafetravel .doc_template ul {
+	margin-top: 0cm;
+	margin-bottom: 0cm;
+	margin-left: 25px;
+	padding: 0;
+}
+#com_gtsafetravel .doc_template li {
+	mso-margin-top-alt: 0;
+	mso-margin-bottom-alt: 0;
+}
+#com_gtsafetravel .doc_template .input-group {
+	display: table;
+}
+#com_gtsafetravel .doc_template .input-group span {
+	display: table-cell;
+}
+#com_gtsafetravel .doc_template span {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#com_gtsafetravel .doc_template hr {
+	margin: 2px 0;
+	border-color: black;
+}
+#com_gtsafetravel .doc_template h3 {
+	text-transform: uppercase;
+	font-weight: normal;
+	border-bottom: 1px solid;
+	margin: 0;
+	padding: 0;
+}
+#com_gtsafetravel .doc_template small {
+	text-transform: none;
+	display: block;
+	color: black;
+	font-weight: normal;
+}
