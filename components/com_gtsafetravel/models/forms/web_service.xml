@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form addfieldpath="/administrator/components/com_gtsafetravel/models/fields">
+	<fields>
+		<fieldset name="item">
+			<field name="id"
+				type="althidden"
+				readonly="true"
+			/>
+			<field name="old_id"
+				type="althidden"
+				readonly="true"
+			/>
+			<field name="category"
+				type="text"
+				filter="numeric"
+				required="false"
+				label="COM_GTSAFETRAVEL_FIELD_CATEGORY"
+				description="COM_GTSAFETRAVEL_FIELD_CATEGORY_DESC"
+			/>
+			<field name="country_id"
+				type="textarea"
+				required="false"
+				query="SELECT id, name FROM #__web_service WHERE id IN (%s) ORDER BY name"
+				task="selectize.getItem"
+				requests="{table: 'web_service'}"
+				wheres="published = 1"
+				class="input-xxlarge"
+				label="COM_GTSAFETRAVEL_FIELD_COUNTRY_ID"
+				description="COM_GTSAFETRAVEL_FIELD_COUNTRY_ID_DESC"
+			/>
+			<field name="name"
+				type="text"
+				readonly="true"
+				filter="string"
+				required="false"
+				class="input-medium"
+				label="COM_GTSAFETRAVEL_FIELD_NAME"
+				description="COM_GTSAFETRAVEL_FIELD_NAME_DESC"
+			/>
+			<field name="content"
+				type="editor"
+				width="60%"
+				height="200px"
+				filter="safehtml"
+				required="false"
+				label="COM_GTSAFETRAVEL_FIELD_CONTENT"
+				description="COM_GTSAFETRAVEL_FIELD_CONTENT_DESC"
+			/>
+			<field name="embassy_id"
+				type="textarea"
+				required="false"
+				query="SELECT id, name FROM #__web_service WHERE id IN (%s) ORDER BY name"
+				task="selectize.getItem"
+				requests="{table: 'web_service'}"
+				wheres="published = 1"
+				class="input-xxlarge"
+				label="COM_GTSAFETRAVEL_FIELD_EMBASSY_ID"
+				description="COM_GTSAFETRAVEL_FIELD_EMBASSY_ID_DESC"
+			/>
+		</fieldset>
+	</fields>
+</form>

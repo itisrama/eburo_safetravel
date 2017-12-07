@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form addfieldpath="/administrator/components/com_gtsafetravel/models/fields">
+	<fields>
+		<fieldset name="edit">
+			<field name="id"
+				type="althidden"
+				readonly="true" 
+			/>
+			<field name="name"
+				type="text"
+				label="COM_GTSAFETRAVEL_FIELD_NAME"
+				class="input-large"
+				required="true" 
+			/>
+		</fieldset>
+	</fields>
+</form>

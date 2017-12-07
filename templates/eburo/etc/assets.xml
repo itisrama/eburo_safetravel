@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assets>
+	<scripts>
+		<file>js/eburo.js</file>
+		<file>js/frontend-edit.js</file>
+	</scripts>
+	
+	<stylesheets>
+		<file>fonts/font-awesome/css/font-awesome.min.css</file>
+		<file>fonts/ptsans/stylesheet.css</file>
+	</stylesheets>
+	
+</assets>

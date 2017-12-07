@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form addfieldpath="/administrator/components/com_gtsafetravel/models/fields">
+	<fields>
+		<fieldset name="item">
+			<field name="id"
+				type="althidden"
+				readonly="true"
+			/>
+			<field name="old_id"
+				type="althidden"
+				readonly="true"
+			/>
+			<field name="client_id"
+				type="textarea"
+				required="false"
+				query="SELECT id, name FROM #__mob_travel WHERE id IN (%s) ORDER BY name"
+				task="selectize.getItem"
+				requests="{table: 'mob_travel'}"
+				wheres="published = 1"
+				class="input-xxlarge"
+				label="COM_GTSAFETRAVEL_FIELD_CLIENT_ID"
+				description="COM_GTSAFETRAVEL_FIELD_CLIENT_ID_DESC"
+			/>
+			<field name="note"
+				type="textarea"
+				required="false"
+				rows="3"
+				class="input-xxlarge"
+				label="COM_GTSAFETRAVEL_FIELD_NOTE"
+				description="COM_GTSAFETRAVEL_FIELD_NOTE_DESC"
+			/>
+			<field name="start_date"
+				type="altcalendar"
+				id="start_date"
+				class="input-small"
+				required="false"
+				label="COM_GTSAFETRAVEL_FIELD_START_DATE"
+				description="COM_GTSAFETRAVEL_FIELD_START_DATE_DESC"
+			/>
+			<field name="end_date"
+				type="altcalendar"
+				id="end_date"
+				class="input-small"
+				required="false"
+				label="COM_GTSAFETRAVEL_FIELD_END_DATE"
+				description="COM_GTSAFETRAVEL_FIELD_END_DATE_DESC"
+			/>
+			<field name="passport_number"
+				type="text"
+				readonly="true"
+				filter="string"
+				required="false"
+				class="input-medium"
+				label="COM_GTSAFETRAVEL_FIELD_PASSPORT_NUMBER"
+				description="COM_GTSAFETRAVEL_FIELD_PASSPORT_NUMBER_DESC"
+			/>
+			<field name="passport_expired"
+				type="altcalendar"
+				id="passport_expired"
+				class="input-small"
+				required="false"
+				label="COM_GTSAFETRAVEL_FIELD_PASSPORT_EXPIRED"
+				description="COM_GTSAFETRAVEL_FIELD_PASSPORT_EXPIRED_DESC"
+			/>
+		</fieldset>
+	</fields>
+</form>

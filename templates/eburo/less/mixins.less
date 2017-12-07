@@ -1,0 +1,44 @@
+.calc-fixed-columns(@index, @class) when (@index > 0) {
+	@containerclass: "container-@{class}";
+	width: @@containerclass / @grid-columns * @index !important;
+}
+
+// Basic looping in LESS
+.loop-fixed-columns(@index, @class) when (@index >= 0) {
+	.col-fixed-@{index} {
+		.calc-fixed-columns(@index, @class);
+	}
+	// next iteration
+	.loop-fixed-columns((@index - 1), @class);
+}
+
+.make-fixed(@class) {
+	.loop-fixed-columns(@grid-columns, @class);
+}
+
+.make-input-sizes(@class) {
+	.input-mini {
+		.calc-fixed-columns(1, @class);
+	}
+
+	.input-small {
+		.calc-fixed-columns(2, @class);
+	}
+
+	.input-medium {
+		.calc-fixed-columns(2.5, @class);
+	}
+
+	.input-large {
+		.calc-fixed-columns(3.5, @class);
+	}
+
+	.input-xlarge {
+		.calc-fixed-columns(4.5, @class);
+	}
+
+	.input-xxlarge {
+		.calc-fixed-columns(6, @class);
+	}
+}
+

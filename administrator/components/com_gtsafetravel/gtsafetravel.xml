@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5.0" method="upgrade">
+	<name>COM_GTSAFETRAVEL</name>
+	<creationDate>July 2016</creationDate>
+	<author>Yudhistira Ramadhan</author>
+	<authorEmail>rama@gamatechno.com</authorEmail>
+	<authorUrl>http://www.gamatechno.com</authorUrl>
+	<copyright>Copyright (C) 2016 Gamatechno. All Rights Reserved.</copyright>
+	<license>GNU/GPL, http://www.gnu.org/licenses/gpl.html</license>
+	<version>1.1.0</version>
+	<description><![CDATA[COM_GTSAFETRAVEL_DESCRIPTION]]></description>
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.sql</file>
+		</sql>
+	</install>
+	<!--<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.sql</file>
+		</sql>
+	</uninstall>-->
+	<files folder="site">
+		<folder>assets</folder>
+		<folder>controllers</folder>
+		<folder>language</folder>
+		<folder>layouts</folder>
+		<folder>models</folder>
+		<folder>tables</folder>
+		<folder>temp</folder>
+		<folder>views</folder>
+		<filename>gtsafetravel.php</filename>
+		<filename>index.html</filename>
+		<filename>router.php</filename>
+	</files>
+	<administration>
+		<menu>COM_GTSAFETRAVEL</menu>
+		<files folder="admin">
+			<folder>assets</folder>
+			<folder>controllers</folder>
+			<folder>core</folder>
+			<folder>helpers</folder>
+			<folder>language</folder>
+			<folder>models</folder>
+			<folder>sql</folder>
+			<folder>tables</folder>
+			<folder>temp</folder>
+			<folder>views</folder>
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>constants.php</filename>
+			<filename>gtsafetravel.php</filename>
+			<filename>gtsafetravel.xml</filename>
+			<filename>index.html</filename>
+			<filename>loader.php</filename>
+		</files>
+	</administration>
+</extension>

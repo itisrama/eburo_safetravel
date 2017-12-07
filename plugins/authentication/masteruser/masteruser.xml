@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="authentication" client="site" method="upgrade">
+    <name>Authentication - Master User</name>
+    <author>Fiona Coulter</author>
+    <creationDate>April 2013</creationDate>
+    <copyright>(C) 2013 copyright Spiral Scripts. All rights reserved.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <authorEmail>jed - at - iswebdesign.co.uk</authorEmail>
+    <authorUrl>www.spiralscripts.co.uk</authorUrl>
+    <version>2.2.0</version>
+    <description>As a Master User, you can log in as another user in the system. This version of the plugin is compatible with version 2.5 and above of Joomla, including 3.2 and above</description>
+    <files>
+        <filename plugin="masteruser">masteruser.php</filename>
+    </files>
+	<config>
+	<fields name="params">
+      <fieldset name="basic" label="Plugin Parameters" description="Configure Plugin">
+		<field name="restrict_ip" type="radio" default="0" label="Restrict by IP Address" description="Limit access as master user by IP address">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="ip_addresses" type="textarea" rows="10" cols="15" default="" label="Valid IP Addresses" description="Enter IP addresses as comma separated list to restrict Master User login access by IP"/>
+		<field name="enable_all" type="radio" default="0" label="Enable by group" description="Allow all users in selected group (usually administrators, but you can change this using the advanced options) to log in as master user. If you check 'no', only those with listed ids will be able to. ">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+	  <field name="master_ids" type="text" default="" size="40" label="Master User Ids" description="Allow master user for listed user ids. Can be single id or comma-separated list. The id must belong to a master user group (usually an administrator or super-administrator, but you can change this using the advanced options)." /> 	
+	</fieldset>   
+   	<fieldset name="advanced">
+	  <field name="no_login_usergroups" type="usergroup" default="7,8" multiple="multiple" label="Restricted User Groups" description="Master Users cannot log in as users in these groups. Unless you have been messing with the admin groups on your site leave this option alone. By default it is set to the groups 7 and 8 administrator and super administrator groups." />	
+	  <field name="master_usergroups" type="usergroup" default="7,8" multiple="multiple" label="Master User Groups" description="The master user groups - it is important that this is set correctly for security. If you have set the enable by group option to yes, then all users in these groups will be able to act as a master user. By default it is set to the groups 7 and 8 administrator and super administrator groups. However you might think about creating a special user group that has no other privileges." />		  	
+    </fieldset>
+	</fields>
+	</config>
+		<languages>
+		   <language tag="en-GB">en-GB.plg_masteruser.ini</language>
+		   </languages>	
+    <updateservers>
+        <server type="extension" priority="1" name="Master User Plugin">http://spiralextensions.co.uk/updates/masteruser.xml</server>
+    </updateservers>			   
+ </extension>
