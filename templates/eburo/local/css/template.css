@@ -2376,13 +2376,8 @@ fieldset.radio.btn-group label.btn-danger .badge {
 }
 @media (max-width: 991px) {
   .t3-mainnav {
-<<<<<<< HEAD
     margin-top: 110px;
     width: 0;
-=======
-    margin-top: 120px;
-    width: 19px;
->>>>>>> 1d01c034d371de754f5a7ac7645f541b3e3847d9
   }
   .t3-mainnav .t3-navbar {
     display: none;
@@ -2391,14 +2386,10 @@ fieldset.radio.btn-group label.btn-danger .badge {
     float: right;
   }
   .t3-header .btn-collapse {
-<<<<<<< HEAD
     display: block !important;
     padding: 3px 10px;
     margin: 6px 0;
     vertical-align: top;
-=======
-    display: inline-block;
->>>>>>> 1d01c034d371de754f5a7ac7645f541b3e3847d9
   }
 }
 
@@ -2472,7 +2463,6 @@ fieldset.radio.btn-group label.btn-danger .badge {
 #login-form .logout {
   border-radius: 25px;
   margin-left: 5px;
-<<<<<<< HEAD
   margin-top: -3px;
   height: 25px;
   line-height: 25px;
@@ -2480,13 +2470,6 @@ fieldset.radio.btn-group label.btn-danger .badge {
   width: 25px;
   border: none;
   text-align: center;
-=======
-  height: 25px;
-  line-height: 11px;
-  padding: 0;
-  width: 25px;
-  border: none;
->>>>>>> 1d01c034d371de754f5a7ac7645f541b3e3847d9
 }
 #login-form ul.unstyled {
   margin-top: 19px;
@@ -3685,7 +3668,6 @@ a.list-group-item.active:focus .list-group-item-text {
   overflow: hidden;
   border-bottom: 1px solid #cacfd0;
 }
-<<<<<<< HEAD
 .t3-header .header-module {
   line-height: 70px;
   margin: 0 -4.75px;
@@ -3716,48 +3698,12 @@ a.list-group-item.active:focus .list-group-item-text {
   .t3-header .header-module > div:last-child {
     float: left;
     padding-left: 0;
-=======
-.t3-header .navbar-right {
-  line-height: 70px !important;
-  margin: 0 -4.75px;
-}
-.t3-header .navbar-right > li {
-  float: left;
-  padding: 0 4.75px;
-}
-.t3-header .navbar-right .fa {
-  font-size: 15px;
-}
-.t3-header .navbar-right .dropdown-menu {
-  line-height: 1.42857;
-}
-.t3-header .navbar-right .btn-link {
-  line-height: normal;
-}
-@media (max-width: 991px) {
-  .t3-header .navbar-right {
-    float: none !important;
-    line-height: 50px !important;
-    height: 50px;
-    background-color: #bfc6c6;
-    padding: 0 19px;
-  }
-  .t3-header .navbar-right > li {
-    float: right;
-  }
-  .t3-header .navbar-right > li:last-child {
-    float: left;
->>>>>>> 1d01c034d371de754f5a7ac7645f541b3e3847d9
   }
 }
 @media (max-width: 991px) {
   .t3-header {
     padding: 0;
-<<<<<<< HEAD
     height: 110px;
-=======
-    height: 120px;
->>>>>>> 1d01c034d371de754f5a7ac7645f541b3e3847d9
   }
 }
 .t3-page-wrapper {
@@ -3769,13 +3715,8 @@ a.list-group-item.active:focus .list-group-item-text {
 }
 @media (max-width: 991px) {
   .t3-page-wrapper {
-<<<<<<< HEAD
     margin: 0;
     padding-top: 110px !important;
-=======
-    margin: 0 0 0 19px !important;
-    padding-top: 120px !important;
->>>>>>> 1d01c034d371de754f5a7ac7645f541b3e3847d9
   }
 }
 .logo {
@@ -3797,15 +3738,12 @@ a.list-group-item.active:focus .list-group-item-text {
   height: 70px;
   overflow: hidden;
 }
-<<<<<<< HEAD
 @media (max-width: 991px) {
   .logo-image {
     display: block;
     text-align: center;
   }
 }
-=======
->>>>>>> 1d01c034d371de754f5a7ac7645f541b3e3847d9
 .logo-image a {
   display: block;
   margin: 0;
@@ -3828,17 +3766,10 @@ a.list-group-item.active:focus .list-group-item-text {
   display: inline-block;
   margin-left: 9.5px;
   padding-left: 9.5px;
-<<<<<<< HEAD
   width: 190px;
   text-transform: uppercase;
   line-height: normal;
   font-size: 0.9em;
-=======
-  width: 202px;
-  text-transform: uppercase;
-  line-height: normal;
-  font-size: 1em;
->>>>>>> 1d01c034d371de754f5a7ac7645f541b3e3847d9
   overflow: hidden;
   border-left: 1px solid;
   position: relative;
@@ -3853,15 +3784,6 @@ a.list-group-item.active:focus .list-group-item-text {
   margin: 0 auto;
   width: 100%;
 }
-<<<<<<< HEAD
-=======
-@media (max-width: 991px) {
-  .logo-image {
-    display: block;
-    text-align: center;
-  }
-}
->>>>>>> 1d01c034d371de754f5a7ac7645f541b3e3847d9
 .logo-text a {
   text-decoration: none;
   font-size: 28px;
@@ -4236,20 +4158,10 @@ html.guest .guest-wrap .input-group-addon > * {
   width: 20px;
 }
 html.guest .guest-wrap .logo-image {
-<<<<<<< HEAD
   margin: 5px 0;
   text-align: center;
   display: block;
 }
-=======
-  margin: 20px 0;
-  text-align: center;
-  display: block;
-}
-html.guest .guest-wrap .logo-image h1 {
-  margin: 0;
-}
->>>>>>> 1d01c034d371de754f5a7ac7645f541b3e3847d9
 html.guest .guest-wrap ul {
   padding-left: 15px;
   margin-top: 10px;
